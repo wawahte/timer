@@ -1,0 +1,58 @@
+{
+    "saved_at": 1778752542.2465997,
+    "visible_timers": 4,
+    "active_group": "drawing 5h",
+    "is_collapsed": false,
+    "timers": [
+        {
+            "remaining": 12874,
+            "running": false,
+            "paused": true,
+            "done": false,
+            "loop": false,
+            "duration": 18000,
+            "chain_to": null,
+            "waiting_for_chain": false
+        },
+        {
+            "remaining": 0,
+            "running": false,
+            "paused": false,
+            "done": false,
+            "loop": false,
+            "duration": 1500,
+            "chain_to": 2,
+            "waiting_for_chain": false
+        },
+        {
+            "remaining": 282,
+            "running": false,
+            "paused": true,
+            "done": false,
+            "loop": false,
+            "duration": 300,
+            "chain_to": 1,
+            "waiting_for_chain": false
+        },
+        {
+            "remaining": 0,
+            "running": false,
+            "paused": false,
+            "done": false,
+            "loop": false,
+            "duration": 1,
+            "chain_to": 1,
+            "waiting_for_chain": false
+        },
+        {
+            "remaining": 0,
+            "running": false,
+            "paused": false,
+            "done": false,
+            "loop": false,
+            "duration": 0,
+            "chain_to": null,
+            "waiting_for_chain": false
+        }
+    ]
+}

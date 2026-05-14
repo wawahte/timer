@@ -1,0 +1,205 @@
+{
+    "_help": {
+        "presets": "Timer durations in seconds. Labels show in dropdowns.",
+        "groups": "Timer indices: 0=first, 1=second, 2=third, 3=fourth. 'chain_to' determines which timer starts when this one finishes. A timer only WAITS if another timer chains TO it. Example: Timer 0 with chain_to:1 means 'when Timer 0 finishes, start Timer 1'. Timer 1 will show \u23f8 and wait.",
+        "sounds": "Beep frequencies (Hz) for each timer when it finishes.",
+        "saved_positions": "Saved window positions (managed by app, don't edit manually)."
+    },
+    "sounds": {
+        "timer1_hz": 750,
+        "timer2_hz": 1700,
+        "timer3_hz": 1500,
+        "timer4_hz": 950,
+        "timer5_hz": 550
+    },
+    "saved_positions": {
+        "pos2": {
+            "x": 1575,
+            "y": 261
+        },
+        "pos1": {
+            "x": 1408,
+            "y": 0
+        }
+    },
+    "presets": {
+        "durations_seconds": [
+            30,
+            60,
+            120,
+            180,
+            300,
+            420,
+            480,
+            540,
+            600,
+            720,
+            900,
+            1200,
+            1800,
+            3600
+        ],
+        "labels": [
+            "30s",
+            "1m",
+            "2m",
+            "3m",
+            "5m",
+            "7m",
+            "8m",
+            "9m",
+            "10m",
+            "12m",
+            "15m",
+            "20m",
+            "30m",
+            "1h"
+        ]
+    },
+    "groups": {
+        "drawing 5h": [
+            {
+                "time": "5h",
+                "loop": false,
+                "chain_to": null
+            },
+            {
+                "time": "25m",
+                "loop": false,
+                "chain_to": 2
+            },
+            {
+                "time": "5m",
+                "loop": false,
+                "chain_to": 1
+            },
+            {
+                "time": "1s",
+                "loop": false,
+                "chain_to": 1
+            }
+        ],
+        "drawing 4h": [
+            {
+                "time": "240m",
+                "loop": false,
+                "chain_to": null
+            },
+            {
+                "time": "25m",
+                "loop": false,
+                "chain_to": 2
+            },
+            {
+                "time": "5m",
+                "loop": false,
+                "chain_to": 1
+            },
+            {
+                "time": "1s",
+                "loop": false,
+                "chain_to": 1
+            }
+        ],
+        "drawing 3hrs": [
+            {
+                "time": "180m",
+                "loop": false,
+                "chain_to": null
+            },
+            {
+                "time": "25m",
+                "loop": false,
+                "chain_to": 2
+            },
+            {
+                "time": "5m",
+                "loop": false,
+                "chain_to": 1
+            },
+            {
+                "time": "1s",
+                "loop": false,
+                "chain_to": 1
+            }
+        ],
+        "sit stand cycle": [
+            {
+                "time": "17m",
+                "loop": false,
+                "chain_to": 1
+            },
+            {
+                "time": "10m",
+                "loop": false,
+                "chain_to": 0
+            }
+        ],
+        "Simple_Chain": [
+            {
+                "time": "1m",
+                "loop": false,
+                "chain_to": 1
+            },
+            {
+                "time": "2m",
+                "loop": false,
+                "chain_to": null
+            }
+        ]
+    },
+    "session": {
+        "saved_at": 1772860423.879863,
+        "visible_timers": 5,
+        "active_group": "Tea",
+        "timers": [
+            {
+                "remaining": 178,
+                "running": false,
+                "paused": true,
+                "loop": false,
+                "duration": 180,
+                "chain_to": null,
+                "waiting_for_chain": false
+            },
+            {
+                "remaining": 0,
+                "running": false,
+                "paused": false,
+                "loop": false,
+                "duration": 600,
+                "chain_to": 0,
+                "waiting_for_chain": true
+            },
+            {
+                "remaining": 0,
+                "running": false,
+                "paused": false,
+                "loop": false,
+                "duration": 300,
+                "chain_to": 1,
+                "waiting_for_chain": false
+            },
+            {
+                "remaining": 0,
+                "running": false,
+                "paused": false,
+                "loop": false,
+                "duration": 1,
+                "chain_to": 1,
+                "waiting_for_chain": false
+            },
+            {
+                "remaining": 0,
+                "running": false,
+                "paused": false,
+                "loop": false,
+                "duration": 0,
+                "chain_to": null,
+                "waiting_for_chain": false
+            }
+        ]
+    },
+    "window_x": 1408,
+    "window_y": 0
+}
